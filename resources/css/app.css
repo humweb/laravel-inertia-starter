@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+
+/* Components */
+@import 'tailwindcss/components';
+@import 'alerts';
+@import 'buttons';
+@import 'card';
+@import 'dropdown';
+@import 'form';
+@import 'list-group';
+@import 'modal';
+@import 'table';
+
+/* Utilities */
+@import 'tailwindcss/utilities';
+
+[x-cloak] {
+    display: none;
+}

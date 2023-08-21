@@ -1,0 +1,48 @@
+
+/*
+* ============================
+* Cards
+*=============================
+*/
+
+.card {
+    @apply flex flex-col relative shadow-sm bg-white dark:bg-gray-800 sm:rounded-lg border border-gray-100 dark:border-none dark:text-gray-400;
+}
+
+.card-header {
+    @apply flex p-4 border-b border-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 sm:rounded-t-lg items-center
+}
+.card-footer {
+    @apply flex justify-between px-5 py-4 border-t border-gray-100 dark:border-gray-700  dark:bg-gray-800 dark:text-gray-400 sm:rounded-b-lg items-center
+}
+
+
+.card-body {
+    @apply flex-auto px-6 py-10 dark:bg-gray-800;
+}
+.card-tight .card-body {
+    @apply py-6;
+}
+
+.card-img-top {
+    @apply w-full rounded-t;
+}
+
+.card-link + .card-link {
+    @apply ml-5;
+}
+
+.card-text {
+    @apply my-0 mb-4;
+}
+
+.card-title {
+    @apply flex flex-col px-4 pt-4 text-base font-medium;
+}
+
+.card-blue .card-header {
+    @apply dark:bg-blue-700 bg-blue-600 text-white dark:text-blue-100 border-b border-blue-700;
+}
+.card-green .card-header {
+    @apply dark:bg-green-700 bg-green-600 text-white dark:text-green-50 border-b border-green-700;
+}
